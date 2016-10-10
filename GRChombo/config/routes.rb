@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  get "/:page" => "welcome#show"
+  get "/:page" => "welcome#index"
 
-  root 'welcome#show', page: "index"
+  root 'welcome#index', page: "index"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
