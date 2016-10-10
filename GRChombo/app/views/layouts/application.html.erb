@@ -13,38 +13,18 @@
 
 <header>
 
-  <div class="row show-for-small-only">
-    <div class="small-12 columns">
-      <div class="top-bar">
-        <ul class="vertical menu" data-accordion-menu>
-          <li>
-            <a href="#">Menu</a>
-            <ul class="menu vertical nested">
-              <li><a href="/index">Home</a></li>
-              <li><a href="/collaborators">Collaborators</a></li>
-              <li><a href="/publications">Publications</a></li>
-              <li><a href="/movies">Movies</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-<div class="row hide-for-small-only">
-  <div class="medium-12 columns">
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">GRChombo</li>
+        <li>
           <li><a href="/index">Home</a></li>
           <li><a href="/collaborators">Collaborators</a></li>
           <li><a href="/publications">Publications</a></li>
           <li><a href="/movies">Movies</a></li>
-        </ul>
-      </div>
     </div>
   </div>
-</div>
+
 </header>
 
 <%= yield %>
